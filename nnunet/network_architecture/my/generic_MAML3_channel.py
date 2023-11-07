@@ -928,7 +928,7 @@ class Generic_MAML_multi3_channel(SegmentationNetwork):
         #     return output
 
         # return final_outputs
-        return final_outputs, attention_maps
+        return final_outputs
 
     @staticmethod
     def compute_approx_vram_consumption(patch_size, num_pool_per_axis, base_num_features, max_num_features,
