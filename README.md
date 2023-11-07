@@ -24,6 +24,10 @@ Early Accepted by MICCAI 2023
 
   `python experiment_planning/nnUNet_plan_and_preprocess.py -t 32 --verify_dataset_integrity`
 
+  - Change batchsize by
+
+  `python experiment_planning/change_batch_size.py`
+  
 * Train
 
   Train the model by
